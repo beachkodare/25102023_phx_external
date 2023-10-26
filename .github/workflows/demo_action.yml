@@ -1,8 +1,8 @@
 name: DockerHubDemo
 
 on:
-  [ workflow_dispatch ]
-  # [push, pull_request, workflow_dispatch]
+  # [ workflow_dispatch ]
+  [push, pull_request, workflow_dispatch]
   # push:
   #   branches: [ "main" ]
 
